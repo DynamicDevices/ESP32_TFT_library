@@ -5,7 +5,7 @@
 
 PROJECT_NAME := tft_demo
 
-EXTRA_CFLAGS += --save-temps
+EXTRA_CFLAGS += --save-temps -Wno-error=address -Wno-error=tautological-compare
 
 include $(IDF_PATH)/make/project.mk
 

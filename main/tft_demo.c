@@ -34,7 +34,8 @@
 #include <sys/time.h>
 #include <unistd.h>
 #include "lwip/err.h"
-#include "apps/sntp/sntp.h"
+//#include "apps/sntp/sntp.h"
+#include "sntp.h"
 #include "esp_log.h"
 #include "nvs_flash.h"
 
